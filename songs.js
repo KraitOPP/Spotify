@@ -120,7 +120,7 @@ function togglePlayPause() {
 // Function to update play/pause button
 function updatePlayPauseButton(isPlaying) {
     const playPauseButton = document.querySelector('.play-pause');
-    playPauseButton.src = isPlaying ? '/Assets/pause-icon.svg' : '/Assets/play-circle-outline.svg';
+    playPauseButton.src = isPlaying ? 'https://raw.githubusercontent.com/KraitOPP/spotify.github.io/main/Assets/pause-icon.svg' : 'https://raw.githubusercontent.com/KraitOPP/spotify.github.io/main/Assets/play-circle-outline.svg';
 }
 
 // Function to handle play-next button click event
@@ -273,7 +273,7 @@ function updateVolumeAnimate() {
 // Function to update volume-up button image based on mute state
 function updateVolumeUpImage(isMuted) {
     const volumeUpButton = document.querySelector('.volume-up');
-    volumeUpButton.src = isMuted ? '/Assets/mute.svg' : '/Assets/volume-up.svg';
+    volumeUpButton.src = isMuted ? 'https://raw.githubusercontent.com/KraitOPP/spotify.github.io/main/Assets/mute.svg' : 'https://raw.githubusercontent.com/KraitOPP/spotify.github.io/main/Assets/volume-up.svg';
 }
 
 // Attach click event listener to volume-up button
