@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', function () {
             setTimeout(function () {
                 searchbar.classList.add('active');
             }, 50);
-            searchIcon.src= "/Assets/close.svg";
+            searchIcon.src= "https://raw.githubusercontent.com/KraitOPP/spotify.github.io/main/Assets/close.svg";
         } else {
             searchbar.classList.remove('active');
             setTimeout(function () {
                 searchbar.style.display = "none";
             }, 250);
-            searchIcon.src= "/Assets/search-icon.svg";
+            searchIcon.src= "https://raw.githubusercontent.com/KraitOPP/spotify.github.io/main/Assets/search-icon.svg";
         }
     });
     const menuicon = document.querySelector('.menu-btn');
