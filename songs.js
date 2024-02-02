@@ -201,7 +201,7 @@ playPreviousButton.addEventListener('click', handlePlayPreviousClick);
 setInterval(updatePlaybackProgress, 500);
 
 // Provide the URL to your text file
-const fileURL = 'http://127.0.0.1:3000/SongsInfo/SongsDetails.txt';
+const fileURL = 'https://raw.githubusercontent.com/KraitOPP/spotify.github.io/main/SongsInfo/SongsDetails.txt';
 
 // Call the function to parse text file and load data into HTML
 parseTextFileFromURL(fileURL)
