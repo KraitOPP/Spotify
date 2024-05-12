@@ -1,0 +1,2 @@
+Tried to Clone Spotify using basic html,css and Javascript!
+Basic project to learn Javascript
